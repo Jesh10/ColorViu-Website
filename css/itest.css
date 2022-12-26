@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+body{
+    color: white;  
+    background-image: url("/images/dark.jpg"); 
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.table {
+    display: table-cell;
+    margin-top: 30%;
+}
+
+.table2 {
+    display: table-cell;
+    margin-left: 50%;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(199, 211, 240) 0%, rgb(232, 206, 206) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(172, 182, 194, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.plate {
+    width: 55%;
+}
+
+.contain {
+    display: table-cell;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 20px;
+    table-layout: fixed;
+    max-width: 20%;
+}
+
+/* .choice1, .choice4, .choice7{
+    display: table-cell;
+    width: 20%;
+    border-radius: 4px;
+    background:#333;
+    font-size: 3rem;
+}
+
+.choice2, .choice5, .choice8{
+    display: table-cell;
+    width: 20%;
+    border-radius: 4px;
+    background:#333;
+    font-size: 3rem;
+}
+
+.choice3, .choice6, .choice9{
+    display: table-cell;
+    width: 20%;
+    border-radius: 4px;
+    background:#333;
+    font-size: 3rem;
+} */
+
+.choice-container{
+    display: table-cell;
+    width: 20%;
+    border-radius: 4px;
+    background:#333;
+    font-size: 3rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 1px #666, 0 5px #444, 0 6px 6px #0009;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-text{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 2rem;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 70px;
+}
+
+.hud-main-text {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#progressText {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#progressBar {
+    width: 30rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+#progressBarFull {
+    height: 100%;
+    background:rgb(11,223,36);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px){
+    .choice-container{
+        min-width: 40rem;
+    }
+}
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 1px #666, 0 5px #444, 0 6px 6px #0009;
+}
+
+input::placeholder {
+    color: #aaa
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none
+}
+
+.container {
+    max-width: 70%;
+}
+
+.table-row {
+    max-width: 90%;
+    align-items: center;
+}
+.center {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 100%;
+}
+
+.ishihara {
+    width: 65%;
+    font-size: 25px;
+    text-align: center;
+}

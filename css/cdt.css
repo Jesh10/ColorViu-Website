@@ -1,0 +1,149 @@
+body{
+    background-image: url("/images/background.jpg");
+}
+.parallax {
+    /* The image used */
+    background-image: url("/images/ishihara.jpeg");
+    opacity: 0.8;
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-style: preserve-3d;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-content {
+    width: 100%;
+    padding: 0px 20px;
+    margin: 30px;
+    vertical-align:middle;
+    text-align:center;
+    border: 3px solid black;
+    background: rgba(0,0,0,.5);
+}
+
+.parallax-content h1{
+    font-size: 130px;
+    color: white;
+    text-shadow: 0 1px 0 #424242, 0 0 5px #424242;
+    font-family: Roboto-Bold, sans-serif;
+    
+}
+
+.parallax-content h4{
+    font-size: 70px;
+    color: rgb(230, 216, 216);
+    text-shadow: 0 1px 0 #424242, 0 0 5px #424242;
+    font-family: Roboto-Bold, sans-serif;
+    
+}
+
+section {
+    color: #fff;
+    text-align: center;
+    
+}
+
+article {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    color: black;
+}
+
+h2 {
+    font-size: 55px;
+    color: black;
+    margin-top: 50px;
+    position: relative;
+    text-decoration: underline;
+    
+}
+
+h3 {
+    font-size: 55px;
+    color: black;
+    position: relative;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+/* Pattern styles */
+.container {
+    display: table;
+    width: 100%;
+}
+
+.left-half {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+}
+
+.right-half {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+b {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    width: 80%;
+    margin-left: 70px;
+    position: relative;
+    color: black;
+}
+
+.btn {
+    display: table-cell;
+    width: 20%;
+    border: solid rgb(168, 161, 161) 0.5px;
+    background: linear-gradient(90deg, rgb(191, 193, 199) 0%, rgb(209, 198, 198) 100%);
+    font-size: 3rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 1px #666, 0 5px #444, 0 6px 6px #0009;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.table {
+    display: table-cell;
+    margin-top: 30%;
+    width: 70%;
+    margin-right: 50%;
+}
+
+.test {
+    border: 5px solid black; 
+    margin-top: 570px; 
+    margin-left: 100px; 
+    padding: 20px; 
+    background: rgba(0,0,0,.05); 
+    width: 80%; 
+    text-align: center;
+}

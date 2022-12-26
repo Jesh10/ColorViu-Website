@@ -1,0 +1,90 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url("/images/background.jpg");
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 100px;
+    color: rgb(71, 64, 64);
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(78, 42, 42);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.table {
+    display: table-cell;
+    margin-top: 30%;
+}
+
+.table2 {
+    display: table-cell;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(28, 26, 26);
+    border: solid rgb(212, 204, 204) 0.8px;
+    background: linear-gradient(90deg, rgb(199, 211, 240) 0%, rgb(232, 206, 206) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(172, 182, 194, 0.6);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.container {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-left: 80px;
+    text-align: center;
+    font-size: 25px;
+    width: 82%;
+}
+
+#description {
+    border: 2px solid rgb(125, 103, 103);
+    max-width: 85%;
+}
+
+#statement {
+    margin-top: 20px;
+}
+
+#btns {
+    margin-bottom: 20px;
+}

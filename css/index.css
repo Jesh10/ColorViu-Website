@@ -1,0 +1,61 @@
+body{
+    background-image: url("/images/background.jpg");
+}
+.parallax {
+    /* The image used */
+    background-image: url("/images/eye.jpg");
+    opacity: 0.85;
+
+    /* Set a specific height */
+    min-height: 550px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-style: preserve-3d;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parallax-content {
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0 auto;
+    vertical-align:middle;
+    text-align:center;
+    
+}
+
+.parallax-content h1{
+    font-size: 170px;
+    color: #fff;
+    text-shadow: 0 1px 0 #424242, 0 0 5px #424242;
+    font-family: Roboto-Bold, sans-serif;
+    text-align:center;
+}
+
+.parallax-content h2{
+    font-size: 40px;
+    color: rgb(200, 195, 195);
+    text-shadow: 0 1px 0 #424242, 0 0 5px #424242;
+    font-family: Roboto-Bold, sans-serif;
+    text-align:center;
+}
+
+.first {
+    margin-bottom: 30px;
+}
+
+sub {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 30px;
+}

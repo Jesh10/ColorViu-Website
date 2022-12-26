@@ -1,0 +1,99 @@
+body{
+    background-image: url("/images/white.webp");
+}
+.parallax {
+    /* The image used */
+    /* background-image: url("/images/ishihara.jpeg");
+    opacity: 0.8; */
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-style: preserve-3d;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-content {
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    vertical-align:middle;
+    text-align:center;
+    
+}
+
+.parallax-content h1{
+    font-size: 130px;
+    color: rgb(98, 94, 94);
+    text-shadow: 0 3px 0 #9b9898, 0 0 5px #a3a1a1;
+    font-family: Roboto-Bold, sans-serif;
+    text-align:center;
+}
+
+.parallax-content h4{
+    font-size: 70px;
+    color: rgb(216, 209, 209);
+    text-shadow: 0 1px 0 #424242, 0 0 5px #424242;
+    font-family: Roboto-Bold, sans-serif;
+    
+}
+
+section {
+    color: #fff;
+    text-align: center;
+    
+}
+
+article {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Pattern styles */
+.container {
+    display: table;
+    width: 100%;
+}
+
+.left-half {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+}
+
+.right-half {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+b {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    width: 80%;
+    margin-left: 70px;
+    position: relative;
+    color: black;
+}

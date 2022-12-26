@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+body{
+    color: black;  
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 400px;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(199, 211, 240) 0%, rgb(232, 206, 206) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(172, 182, 194, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
