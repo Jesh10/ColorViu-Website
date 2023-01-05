@@ -2,10 +2,16 @@
     $conn = new mysqli('localhost', 'root', '', 'colorviu');
 
     //$result = '<script type="text/javascript">document.getElementById("result").textContent;</script>';
-    $_SESSION["result"] = $_COOKIE["dresult"];
+    if ($_COOKIE["dresult"] == "Protanomaly" || "Protanopia" || "Deuteranomaly" || "Deuteranopia" || "Tritanomaly" || "Tritanopia"){
+        $_SESSION["result"] = $_COOKIE["dresult"];
+    } else if ($_COOKIE["dseverity"] == "Partially Severe Color Deficiency" || "Severe Color Deficiency"){
+        $_SESSION["severity"] = $_COOKIE["dseverity"];
+    } else{
+        echo "<script>alert('Invalid Values');</script>";
+    }
 
     //$severity = "<script>document.getElementById('severity').textContent;</script>";
-    $_SESSION["severity"] = $_COOKIE["dseverity"];
+
 
     $_SESSION['test'] = 'd-15';
 

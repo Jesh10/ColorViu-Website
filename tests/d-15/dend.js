@@ -9,6 +9,7 @@ ctx.beginPath();
 ctx.translate(100, 100);
 
 let order = []
+let increments = []
 let pro = []
 let deu = []
 let tri = []
@@ -248,15 +249,19 @@ function gradient(){
     pdient = 2.5
     ddient = 4
     tdient = 0
+    for (var i = 0; i < order.length; i++){
+        incre = Math.abs(order[i+1].id - order[i].id)
+
+        if (incre > 3){
+            increments.add(incre);
+        }
+    }
     for (let i = 0; i < order.length; i++){
         ycomp = order[i+1].y - order[i].y
         xcomp = order[i+1].x - order[i].x
         grad = ycomp / xcomp
-        //console.log(grad)
-        incre = Math.abs(order[i+1].id - order[i].id)
-        //console.log(incre)
 
-        if (incre > 4){
+        if (increments.length > 3){
             if (grad == pdient){
                 pro.push(grad)
                 //console.log(pro)
@@ -265,7 +270,7 @@ function gradient(){
                 deu.push(grad)
                 //console.log(deu)
                 
-            } else if(grad < tdient){
+            } else if(grad <= tdient){
                 tri.push(grad)
                 //console.log(tri)
                 
@@ -298,7 +303,7 @@ function gradient(){
             
             } else if (tri.length > 4 || tri.length > pro.length ||  tri.length > deu.length){
                 result.innerHTML = "Tritanopia"
-                severity.innerHTML = "Partially Severe Color Deficiency"
+                severity.innerHTML = "Severe Color Deficiency"
                 localStorage.setItem('dmore', 'tritan') 
                 
             } 

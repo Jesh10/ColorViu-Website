@@ -53,11 +53,11 @@
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
-                                <th>No.</th>
-                                <th>Test Name</th>
-                                <th>Result</th>
-                                <th>Severity</th>
-                                <th>DateTime</th>
+                                <th style ="font-size:large">No.</th>
+                                <th style ="font-size:large">Test</th>
+                                <th style ="font-size:large">Deficiency</th>
+                                <th style ="font-size:large">Severity</th>
+                                <th style ="font-size:large">Time</th>
                             </tr>   
                         <thead>
                         <tbody>
