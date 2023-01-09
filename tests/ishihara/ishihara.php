@@ -37,11 +37,11 @@
                 You will be required to interpret the various numbers shown in the
                 pseudoisochromatic plates.
                 <b>If you are unsure about the number within the test plate</b>
-                input in your best guess. You can also select <b>‘skip’</b> to move onto the next question.
+                input in your best guess. You can also select <b>‘skip’</b> to move onto the next question
             </p>
 
             <p class="ishihara">
-                This test can only be used to detect red-green color blindness. 
+                This test can only be used to detect red-green color blindness
             </p>
 
             <h1 style="text-decoration: underline;">Before Taking the Test</h1>
@@ -50,16 +50,16 @@
                 <b>Remove any glasses with colored lenses:</b>
                 taking this test with only your prescription lenses or 
                 naked eye will provide you with the most accurate results. 
-                Wearing a colored lens can make your results inaccurate.
+                Wearing a colored lens can make your results inaccurate
             </p>    
             <p class="ishihara">
                 <b>Turn up your screen brightness:</b>
-                brighter colors are easier to perceive. 
+                brighter colors are easier to perceive
             </p>
 
             <p class="ishihara">
                 <b>The test consists of a series of color blind test plates: </b>
-                which form a a one digit number. 
+                which form a one digit number
             </p>
             <br>
             <button type="button" class="btn" onclick="window.location.href='/tests/ishihara/itest.php'" style="width: 200px; height: 100px; ">

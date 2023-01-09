@@ -39,16 +39,16 @@
                 <h1 style="text-decoration: underline; margin-right:60px;">ABOUT</h1>
                 <br>
                 <p> 
-                    <b>ColorViu</b> is a <b>Color Vision Testing</b> platform that has the vision to improve the lives of anyone with Color Deficiencies.
+                    <b>ColorViu</b> is a <b>Color Vision Testing</b> platform that has the vision to improve the lives of anyone with Color Deficiencies
                 </p>    
 
                 <p>
-                    Those who might not know if they are color deficient can use our easy-to-do <b>Color Vision Tests</b> (ie., Ishihara & D-15) to find out. 
+                    Those who might not know if they are color deficient can use our easy-to-do <b>Color Vision Tests</b> (ie., Ishihara & D-15) to find out
                 </p>
 
                 <p>
                     Furthermore, <b>ColorViu</b> includes a <b>Color Plate Generator</b> that allows Color Deficient users to create their own Color Plates to give others an understanding of
-                    what colors they have difficulties differenciating.
+                    what colors they have difficulties differenciating
                 </p>
                 <h1 style="text-decoration: underline; margin-right:60px;">CONTACT US</h1>
                 <br>

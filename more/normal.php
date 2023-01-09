@@ -39,12 +39,12 @@
                 <h1 style="text-decoration: underline; margin-right:60px;">What is Color Vision?</h1>
                 <br>
                 <p> 
-                    The ability to distinguish between light that is constituted of different wavelengths (i.e., different spectral power distributions) regardless of light intensity. 
+                    The ability to distinguish between light that is constituted of different wavelengths (i.e., different spectral power distributions) regardless of light intensity 
                 </p>    
 
                 <p>
                     The process starts with the differential stimulation of several types of photoreceptors called <b>cones</b> by light entering the eye. 
-                    These <b>cones</b> then provide outputs that eventually reach the brain after travelling through numerous layers of neurons.
+                    These <b>cones</b> then provide outputs that eventually reach the brain after travelling through numerous layers of neurons
                 </p>
             </article>
         </div>
@@ -62,7 +62,7 @@
                     <br>
                     <p style="font-size: 28px;"> 
                         There are issues with colour vision in Japanese society as a whole, Japanese physicians, and Japanese ophthalmologists 
-                        because they lack awareness of color vision in general.
+                        because they lack awareness of color vision in general
                     </p>
                 </div> 
             </article>

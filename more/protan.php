@@ -65,10 +65,10 @@
                         Protanomaly is a <b>partially severe</b> color deficiency
                     </p>
                     <p>
-                        The Color Blind person who has this condition is unable to distinguish the difference between the colors <b> Red and Green </b>. 
+                        The Color Blind person who has this condition is unable to distinguish the difference between the colors <b>Red and Green</b>
                     </p>
                     <p>
-                        However, this condition is only partially severe as the red cones in the person's eyes are present, but they have abnormalitites which makes the person perceive <b> Red as more Green</b>.
+                        However, this condition is only partially severe as the red cones in the person's eyes are present, but they have abnormalitites which makes the person perceive <b> Red as more Green</b>
                     </p>
                 </div> 
             </article>
@@ -82,10 +82,10 @@
                         Protanopia is a <b>severe</b> color deficiency 
                     </p>
                     <p>
-                        The Color Blind person who has this condition is also unable to distinguish the difference between the colors <b> Red and Green </b>. 
+                        The Color Blind person who has this condition is also unable to distinguish the difference between the colors <b>Red and Green</b>
                     </p>
                     <p>
-                        However, this condition is severe as the person's eyes are <b>missing</b> the red cones completely, leaving only the cones that absorb Blue and Green light.
+                        However, this condition is severe as the person's eyes are <b>missing</b> the red cones completely, leaving only the cones that absorb Blue and Green light
                     </p>
                 </div>    
             </article>

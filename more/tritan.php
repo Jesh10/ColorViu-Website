@@ -65,7 +65,7 @@
                         Tritanomaly is a <b>partially severe</b> color deficiency
                     </p>
                     <p>
-                        The Color Blind person who has this condition is unable to distinguish the difference between the colors <b>Blue and Yellow</b>.
+                        The Color Blind person who has this condition is unable to distinguish the difference between the colors <b>Blue and Yellow</b>
                     </p>
                     <p>
                         However, this condition is only partially severe as the blue cones in the person's eyes are present, but they have abnormalitites which makes the person perceive the world in more <b> Red, Black and White</b>
@@ -82,10 +82,10 @@
                         Tritanopia is a <b>severe</b> color deficiency 
                     </p>
                     <p>
-                        The Color Blind person who has this condition is also unable to distinguish the difference between the colors <b> Blue and Yellow </b>. 
+                        The Color Blind person who has this condition is also unable to distinguish the difference between the colors <b>Blue and Yellow</b>
                     </p>
                     <p>
-                        However, this condition is severe as the person's eyes are <b>missing</b> the blue cones completely, leaving only the cones that absorb Red and Green light.
+                        However, this condition is severe as the person's eyes are <b>missing</b> the blue cones completely, leaving only the cones that absorb Red and Green light
                     </p>
                 </div>    
             </article>

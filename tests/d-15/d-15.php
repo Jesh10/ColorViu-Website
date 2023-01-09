@@ -35,11 +35,11 @@
             <br>
             <p class="dtest"> 
                 You will be shown a row of colored boxes which have to be arranged in the correct order. The colored boxes on the <b> extreme left and right sides </b> of the row
-                has been done for you as a reference.
+                has been done for you as a reference
             </p>
 
             <p class="dtest"> 
-                Based on the the order of the colored boxes, the type of your color blindness and as well its severity can be calculated.
+                Based on the the order of the colored boxes, the type of your color blindness and as well its severity can be calculated
             </p>
             
             <h1 style="text-decoration: underline;">Before Taking the Test</h1>
@@ -48,16 +48,11 @@
                 <b>Remove any glasses with colored lenses:</b>
                 taking this test with only your prescription lenses or 
                 naked eye will provide you with the most accurate results. 
-                Wearing a colored lens can make your results inaccurate.
+                Wearing a colored lens can make your results inaccurate
             </p>    
             <p class="dtest">
                 <b>Turn up your screen brightness:</b>
-                brighter colors are easier to perceive. 
-            </p>
-
-            <p class="dtest">
-                <b>The test consists of a series of color blind test plates: </b>
-                which form a a one digit number. 
+                brighter colors are easier to perceive
             </p>
             <br>
             <button type="button" class="btn" onclick="window.location.href='/tests/d-15/dtest.php'" style="width: 200px; height: 100px; ">

@@ -37,20 +37,20 @@
             <div class="pro">
                 <input type="image" id="protan" src="/images/i_8.png" onclick="window.location.href='/more/protan.php'"></input>
                 <h2>Protan</h2>
-                <p>A common Color Deficiency among Color blind people who have difficulties percieve the color <b>Red</b> well</p>
+                <p>A common Color Deficiency among Color blind people who have difficulties percieving the color <b>Red</b> well</p>
                 
             </div>
             
             <div class="deu">
                 <input type="image" id="deutan" src="/images/i_1.png" onclick="window.location.href='/more/deutan.php'"></input>
                 <h2>Deutan</h2>
-                <p>Similar to the Protan Deficiency, but these Color Blind people have difficulties percieve the color <b>Green</b> well</p>
+                <p>Similar to the Protan Deficiency, but these Color Blind people have difficulties percieving the color <b>Green</b> well</p>
             </div>
 
             <div class="tri">
                 <input type="image" id="tritan" src="/images/i_9.png" onclick="window.location.href='/more/tritan.php'"></input>
                 <h2>Tritan</h2>
-                <p>A very rare Color Deficiency among Color blind people who have difficulties percieve the colors <b>Blue</b> well</p>
+                <p>A very rare Color Deficiency among Color blind people who have difficulties percieving the colors <b>Blue</b> well</p>
             </div>
         </div>
     </div>
