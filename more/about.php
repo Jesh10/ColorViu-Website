@@ -29,7 +29,7 @@
     <div class="parallax">
         <div class="parallax-content">
             <h1>What is ColorViu?</h1>
-            <h4><em>Improving your color vision experience</em><h4>
+            <h4><em>Improving your Color Vision experience</em><h4>
         </div>
     </div>
     
@@ -43,7 +43,7 @@
                 </p>    
 
                 <p>
-                    Those who might not know if they are color deficient can use our easy-to-do <b>Color Vision Tests</b> (ie., Ishihara & D-15) to find out
+                    Those who might not know if they are Color Deficient can use our easy-to-do <b>Color Vision Tests</b> (ie., Ishihara & D-15) to find out
                 </p>
 
                 <p>

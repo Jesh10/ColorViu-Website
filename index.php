@@ -76,7 +76,7 @@
         <div class="parallax">
             <div class="parallax-content">
                 <h1>ColorViu</h1>
-                <h2>Improving your color vision experience<h2>
+                <h2>Improving your Color Vision experience<h2>
             </div>
         </div>
 

@@ -61,7 +61,7 @@
                     <h3 style="font-size: 45px; width:70%; margin-left:105px;">COLOR VISION PROBLEM IN JAPAN</h3>
                     <br>
                     <p style="font-size: 28px;"> 
-                        There are issues with colour vision in Japanese society as a whole, Japanese physicians, and Japanese ophthalmologists 
+                        There are issues with color vision in Japanese society as a whole, Japanese physicians, and Japanese ophthalmologists 
                         because they lack awareness of color vision in general
                     </p>
                 </div> 
