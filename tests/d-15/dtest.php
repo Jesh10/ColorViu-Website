@@ -50,8 +50,8 @@
             <div data-position="13" class="hue-box" id="box13"> </div>
             <div data-position="14" class="hue-box" id="box14"> </div>
             <div data-position="15" class="hue-box" id="box15"> </div>
+            <div data-position="16" class="hue-box" id="pointer2"> </div>
         </div>
-        <div data-position="16" class="hue-box" id="pointer2" style="margin-left:30px"> </div>
     </section>
     <button form-action="submit" class="btn" id=submitButton style="position: absolute; top: 63%; left: 44%;" onclick="window.location.href='/tests/d-15/dend.php'">Submit</button>
 
