@@ -122,11 +122,11 @@ h2 {
   }
 
 #pointer {
-    background-color: rgb(55, 129, 193)
+    background-color: #3781C1
 }
 
 #box01 {
-    background-color: rgb(53, 131, 180)
+    background-color: #3583B4
 }
 
 #box02 {
@@ -182,10 +182,10 @@ h2 {
 }
 
 #box15 {
-    background-color: rgb(128, 115, 178)
+    background-color: #8073B2
 }
 
-#pointer2 {
+/* #box16 {
     background-color: rgb(117, 103, 163)
-}
+} */
 

@@ -95,11 +95,11 @@ let coordinates = [
         x: 160,
         y: 500,
     },
-    {
-        id: 16,
-        x: 100,
-        y: 409,
-    },
+    // {
+    //     id: 16,
+    //     x: 100,
+    //     y: 409,
+    // },
 ]
 
 let entries = [...coordinates]
@@ -116,7 +116,6 @@ function compare(){
     }
 }
 compare()
-//console.log(order)
 
 function protan(){
     
@@ -201,8 +200,8 @@ function numbers() {
     ctx.font = "30px Noto Sans, sans-serif"
     ctx.fillText("15", 140, 545)
 
-    ctx.font = "18px Noto Sans, sans-serif"
-    ctx.fillText("REFERENCE", 0, 450)
+    // ctx.font = "18px Noto Sans, sans-serif"
+    // ctx.fillText("REFERENCE", 0, 450)
 
     ctx.font = "16px Noto Sans, sans-serif"
     ctx.fillText("PROTAN", 170, 230)
@@ -233,13 +232,14 @@ function connect(){
     ctx.strokeStyle = '#0a0100'
     ctx.lineWidth = 1;
     for (let i = 0; i < order.length; i++){
-        ctx.beginPath()
-        ctx.moveTo(order[i].x, order[i].y)
-        ctx.lineTo(order[i+1].x, order[i+1].y)
-        ctx.stroke()
-        ctx.closePath()
-        if (order[i+1].id ==16){
+        if (i == 15){
             break
+        } else {
+            ctx.beginPath()
+            ctx.moveTo(order[i].x, order[i].y)
+            ctx.lineTo(order[i+1].x, order[i+1].y)
+            ctx.stroke()
+            ctx.closePath()
         }
     }   
 }
@@ -249,72 +249,71 @@ function gradient(){
     pdient = 2.5
     ddient = 4
     tdient = 0
-    for (var i = 0; i < order.length; i++){
-        incre = Math.abs(order[i+1].id - order[i].id)
-
+    for (var i = 0; i < arrange.length; i++){
+        incre = Math.abs(arrange[i+1] - arrange[i])
         if (incre > 3){
-            increments.add(incre);
+            increments.push(incre);
         }
     }
     for (let i = 0; i < order.length; i++){
-        ycomp = order[i+1].y - order[i].y
-        xcomp = order[i+1].x - order[i].x
-        grad = ycomp / xcomp
-
-        if (increments.length > 3){
-            if (grad == pdient){
-                pro.push(grad)
-                //console.log(pro)
-
-            } else if(grad >= ddient){
-                deu.push(grad)
-                //console.log(deu)
-                
-            } else if(grad <= tdient){
-                tri.push(grad)
-                //console.log(tri)
-                
-            } 
-
-            if (pro.length == 2 || pro.length == 3){
-                result.innerHTML = "Protanomaly"
-                severity.innerHTML = "Partially Severe Color Deficiency"
-                localStorage.setItem('dmore', 'protan')
-
-            } else if (pro.length > 3 || pro.length > deu.length || pro.length > tri.length){
-                result.innerHTML = "Protanopia"
-                severity.innerHTML = "Severe Color Deficiency"
-                localStorage.setItem('dmore', 'protan')
-
-            } else if (deu.length == 2 || deu.length == 3){
-                result.innerHTML = "Deuteranomaly"
-                severity.innerHTML = "Partially Severe Color Deficiency"
-                localStorage.setItem('dmore', 'deutan') 
-
-            } else if (deu.length > 3 || deu.length > pro.length ||  deu.length > tri.length){
-                result.innerHTML = "Deuteranopia"
-                severity.innerHTML = "Severe Color Deficiency"
-                localStorage.setItem('dmore', 'deutan')
-
-            } if (tri.length == 3 || tri.length == 4){
-                result.innerHTML = "Tritanomaly"
-                severity.innerHTML = "Partially Severe Color Deficiency"
-                localStorage.setItem('dmore', 'tritan') 
-            
-            } else if (tri.length > 4 || tri.length > pro.length ||  tri.length > deu.length){
-                result.innerHTML = "Tritanopia"
-                severity.innerHTML = "Severe Color Deficiency"
-                localStorage.setItem('dmore', 'tritan') 
-                
-            } 
-        } else {
-            result.innerHTML = "Trichromacy"
-            severity.innerHTML = "Normal Color Vision"
-            localStorage.setItem('dmore', 'normal')
-        }
-        
-        if (order[i+1].id == 16){
+        if (i == 15){
             break
+        } else {
+            ycomp = order[i+1].y - order[i].y
+            xcomp = order[i+1].x - order[i].x
+            grad = ycomp / xcomp
+
+            if (increments.length > 3){
+                if (grad == pdient){
+                    pro.push(grad)
+                    //console.log(pro)
+
+                } else if(grad >= ddient){
+                    deu.push(grad)
+                    //console.log(deu)
+                    
+                } else if(grad <= tdient){
+                    tri.push(grad)
+                    //console.log(tri)
+                    
+                } 
+
+                if (pro.length == 2 || pro.length == 3){
+                    result.innerHTML = "Protanomaly"
+                    severity.innerHTML = "Partially Severe Color Deficiency"
+                    localStorage.setItem('dmore', 'protan')
+
+                } else if (pro.length > 3 || pro.length > deu.length || pro.length > tri.length){
+                    result.innerHTML = "Protanopia"
+                    severity.innerHTML = "Severe Color Deficiency"
+                    localStorage.setItem('dmore', 'protan')
+
+                } else if (deu.length == 2 || deu.length == 3){
+                    result.innerHTML = "Deuteranomaly"
+                    severity.innerHTML = "Partially Severe Color Deficiency"
+                    localStorage.setItem('dmore', 'deutan') 
+
+                } else if (deu.length > 3 || deu.length > pro.length ||  deu.length > tri.length){
+                    result.innerHTML = "Deuteranopia"
+                    severity.innerHTML = "Severe Color Deficiency"
+                    localStorage.setItem('dmore', 'deutan')
+
+                } if (tri.length == 3 || tri.length == 4){
+                    result.innerHTML = "Tritanomaly"
+                    severity.innerHTML = "Partially Severe Color Deficiency"
+                    localStorage.setItem('dmore', 'tritan') 
+                
+                } else if (tri.length > 4 || tri.length > pro.length ||  tri.length > deu.length){
+                    result.innerHTML = "Tritanopia"
+                    severity.innerHTML = "Severe Color Deficiency"
+                    localStorage.setItem('dmore', 'tritan') 
+                    
+                } 
+            } else {
+                result.innerHTML = "Trichromacy"
+                severity.innerHTML = "Normal Color Vision"
+                localStorage.setItem('dmore', 'normal')
+            }
         }
     }   
 
@@ -323,7 +322,7 @@ function gradient(){
 
     $s = severity.innerHTML
     document.cookie = "dseverity=" + $s;
-
+ 
 }
 gradient()
 

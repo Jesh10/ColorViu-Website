@@ -69,9 +69,6 @@
                             <td><?php echo $row[3] ?></td>
                             <td><?php echo $row[4] ?></td>
                             <td><?php echo $row[5] ?></td>
-                            <!-- <td>
-                                <a href="update(user).php?edit=<?php //echo urlencode(base64_encode($id))?>" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                            </td> -->
                         </tr>
                     <?php endwhile; ?>
                     </tbody>

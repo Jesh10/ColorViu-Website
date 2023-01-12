@@ -33,28 +33,27 @@
     </div>
 
     <section class="hue-container">
-        <div data-position="0" class="hue-box" id="pointer" style="margin-right:30px"></div>
+        <div class="hue-box" id="#3781C1" style="margin-right:30px"></div>
         <div id="row1">
-            <div data-position="1" class="hue-box" id="box01"> </div>
-            <div data-position="2" class="hue-box" id="box02"> </div>
-            <div data-position="3" class="hue-box" id="box03"> </div>
-            <div data-position="4" class="hue-box" id="box04"> </div>
-            <div data-position="5" class="hue-box" id="box05"> </div>
-            <div data-position="6" class="hue-box" id="box06"> </div>
-            <div data-position="7" class="hue-box" id="box07"> </div>
-            <div data-position="8" class="hue-box" id="box08"> </div>
-            <div data-position="9" class="hue-box" id="box09"> </div>
-            <div data-position="10" class="hue-box" id="box10"> </div>
-            <div data-position="11" class="hue-box" id="box11"> </div>
-            <div data-position="12" class="hue-box" id="box12"> </div>
-            <div data-position="13" class="hue-box" id="box13"> </div>
-            <div data-position="14" class="hue-box" id="box14"> </div>
-            <div data-position="15" class="hue-box" id="box15"> </div>
-            <div data-position="16" class="hue-box" id="pointer2"> </div>
+            <div class="hue-box" id="#3583B4"></div>
+            <div class="hue-box" id="#3B84A7"></div>
+            <div class="hue-box" id="#39859C"></div>
+            <div class="hue-box" id="#3B8690"></div>
+            <div class="hue-box" id="#3F8782"></div>
+            <div class="hue-box" id="#588473"></div>
+            <div class="hue-box" id="#6C8164"></div>
+            <div class="hue-box" id="#837B5D"></div>
+            <div class="hue-box" id="#907660"></div>
+            <div class="hue-box" id="#9E6E6F"></div>
+            <div class="hue-box" id="#9F6D7C"></div>
+            <div class="hue-box" id="#9C6D89"></div>
+            <div class="hue-box" id="#927099"></div>
+            <div class="hue-box" id="#8F6FA4"></div>
+            <div class="hue-box" id="#8073B2"></div>
+            <!-- <div class="hue-box" id="box16"> </div> -->
         </div>
     </section>
     <button form-action="submit" class="btn" id=submitButton style="position: absolute; top: 63%; left: 44%;" onclick="window.location.href='/tests/d-15/dend.php'">Submit</button>
-
 
     <script src="dtest.js"></script>
 </body>
