@@ -2,9 +2,6 @@
     session_start();
     $conn = new mysqli('localhost', 'root', '', 'colorviu');
     $query = mysqli_query($conn,"SELECT * FROM results WHERE Date=CURDATE() AND UserId= '{$_SESSION["userid"]}'")
-    // $result->execute();
-    // $result->bind_result($resultid, $name, $result, $severity, $date);
-    // $result->store_result();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +18,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/c482b2fb67.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/results.css"/>
-    <!-- <link rel="stylesheet" href="/colorviu/css/footer.css"/> -->
 </head>
 <style>
     body{
@@ -46,7 +42,7 @@
                         <div class="table-title">
                             <div class="row">
                             <div class="col-m-6">
-                                <h2><?php echo date("Y/m/d");?> Results</h2>
+                                <h2><?php echo date("d/m/Y");?> Results</h2>
                             </div>
                         </div>
                     </div>
