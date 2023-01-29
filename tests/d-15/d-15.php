@@ -34,7 +34,7 @@
             <h1 style="text-decoration: underline;">How it Works</h1>
             <br>
             <p class="dtest"> 
-                You will be shown a row of colored boxes which have to be arranged in the correct order. The colored boxes on the <b> extreme left and right sides </b> of the row
+                You will be shown a row of colored boxes which have to be arranged in the correct order. The colored box on the <b> extreme left side </b> of the row
                 has been done for you as a reference
             </p>
 
