@@ -49,22 +49,22 @@
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
-                                <th style ="font-size:large">No.</th>
-                                <th style ="font-size:large">Test</th>
-                                <th style ="font-size:large">Deficiency</th>
-                                <th style ="font-size:large">Severity</th>
-                                <th style ="font-size:large">Time</th>
+                                <th style ="font-size:30px">No.</th>
+                                <th style ="font-size:30px">Test</th>
+                                <th style ="font-size:30px">Deficiency</th>
+                                <th style ="font-size:30px">Severity</th>
+                                <th style ="font-size:30px">Time</th>
                             </tr>   
                         <thead>
                         <tbody>
                         <tr>
                         <?php $num = 1 ?>
                         <?php while($row = mysqli_fetch_row($query)): ?>
-                            <td><?php echo $num++ ?></td>
-                            <td><?php echo $row[2] ?></td>
-                            <td><?php echo $row[3] ?></td>
-                            <td><?php echo $row[4] ?></td>
-                            <td><?php echo $row[5] ?></td>
+                            <td style ="font-size:25px"><?php echo $num++ ?></td>
+                            <td style ="font-size:25px"><?php echo $row[2] ?></td>
+                            <td style ="font-size:25px"><?php echo $row[3] ?></td>
+                            <td style ="font-size:25px"><?php echo $row[4] ?></td>
+                            <td style ="font-size:25px"><?php echo $row[5] ?></td>
                         </tr>
                     <?php endwhile; ?>
                     </tbody>

@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
           n_colors_on: 1,
           n_colors_off: 1,
           color_on0: '#FF934F',
-          color_off1: '#9C9C9C'
+          color_off0: '#9C9C9C'
         }],
         'Colorblind only': [{
           n_colors_on: 2,
