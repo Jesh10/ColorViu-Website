@@ -74,7 +74,5 @@
             <a href="/index.php" class="btn">Go Home</a>
         </div>
     </div>
-    <script src="results.js"></script>
 </body>
-
 </html>
